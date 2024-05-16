@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./components/Layout";
 import ChatList from "./pages/ChatList";
+import "remixicon/fonts/remixicon.css";
 
 const App = () => {
   return (

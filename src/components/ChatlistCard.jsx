@@ -4,7 +4,9 @@ const ChatlistCard = ({ question, answer }) => {
       <div className="mb-2 font-semibold">Q. {question}</div>
       <div>A. {answer}</div>
     </li>
-  );
+      );
+
+      
 };
 
 export default ChatlistCard;
