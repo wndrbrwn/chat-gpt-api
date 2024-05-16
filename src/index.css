@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-    .link-style {
-      @apply text-2xl font-semibold hover:underline underline-offset-4 text-gray-500 hover:text-gray-900;
-    }
+  .link-style {
+    @apply text-2xl font-semibold hover:underline underline-offset-4 text-gray-500 hover:text-gray-900;
   }
+}
