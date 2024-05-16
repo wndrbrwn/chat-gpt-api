@@ -1,12 +1,7 @@
-import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const location = useLocation();
-
-  useEffect(() => {
-    console.log(location.pathname);
-  }, [location]);
 
   return (
     <header className="px-2 py-4 flex justify-center gap-8 shadow-md">
